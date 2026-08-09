@@ -1,1 +1,471 @@
+/* 全局 */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    font-family:
+    "Microsoft YaHei",
+    "Noto Sans SC",
+    Arial,
+    sans-serif;
+
+    background:#f7f8f6;
+
+    color:#333;
+
+    line-height:1.8;
+
+}
+
+
+
+/* 导航栏 */
+
+
+header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+    background:white;
+
+    box-shadow:
+    0 2px 15px rgba(0,0,0,0.08);
+
+}
+
+
+
+.nav{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 30px;
+
+}
+
+
+
+.logo{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    color:#155b52;
+
+}
+
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    margin:0 12px;
+
+    font-size:15px;
+
+}
+
+
+
+nav a:hover{
+
+    color:#155b52;
+
+}
+
+
+
+button{
+
+    border:none;
+
+    background:#155b52;
+
+    color:white;
+
+    padding:6px 16px;
+
+    border-radius:20px;
+
+}
+
+
+
+/* 首页 */
+
+
+.hero{
+
+    max-width:1200px;
+
+    margin:70px auto;
+
+    padding:40px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+
+
+.intro{
+
+    flex:1;
+
+}
+
+
+
+.intro h1{
+
+    font-size:55px;
+
+    color:#155b52;
+
+}
+
+
+
+.intro h2{
+
+    font-size:26px;
+
+    font-weight:normal;
+
+    margin:15px 0;
+
+}
+
+
+
+.english{
+
+    color:#777;
+
+}
+
+
+
+.contact{
+
+    margin-top:25px;
+
+}
+
+
+
+
+.photo img{
+
+    width:280px;
+
+    height:350px;
+
+    object-fit:cover;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* 内容区域 */
+
+
+section{
+
+    max-width:1100px;
+
+    margin:70px auto;
+
+    padding:40px;
+
+    background:white;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.06);
+
+}
+
+
+
+section h2{
+
+    color:#155b52;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+    border-left:6px solid #c49a4a;
+
+    padding-left:15px;
+
+}
+
+
+
+.desc{
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.item{
+
+    padding:20px;
+
+    border-left:3px solid #155b52;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.item h3{
+
+    color:#155b52;
+
+}
+
+
+
+.item span{
+
+    color:#888;
+
+}
+
+
+
+
+/* 卡片 */
+
+
+.card{
+
+    background:#fafafa;
+
+    padding:25px;
+
+    margin:20px 0;
+
+    border-radius:15px;
+
+}
+
+
+
+.card h3{
+
+    color:#155b52;
+
+    margin-bottom:15px;
+
+}
+
+
+
+ul{
+
+    padding-left:25px;
+
+}
+
+
+
+li{
+
+    margin:8px 0;
+
+}
+
+
+
+
+
+/* 证书 */
+
+
+.certificate-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.certificate-grid div{
+
+    background:#155b52;
+
+    color:white;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+}
+
+
+
+
+/* 简历按钮 */
+
+
+.button{
+
+    display:inline-block;
+
+    background:#155b52;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    margin:10px;
+
+}
+
+
+
+
+/* 页脚 */
+
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:#777;
+
+}
+
+
+
+
+
+/* 手机端 */
+
+
+@media(max-width:800px){
+
+
+.nav{
+
+    flex-direction:column;
+
+}
+
+
+nav{
+
+    margin-top:15px;
+
+}
+
+
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+}
+
+
+
+.intro h1{
+
+    font-size:40px;
+
+}
+
+
+
+.photo img{
+
+    width:200px;
+
+    height:260px;
+
+}
+
+
+
+section{
+
+    margin:30px 15px;
+
+    padding:25px;
+
+}
+
+
+
+.certificate-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+}
