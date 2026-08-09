@@ -469,3 +469,55 @@ section{
 
 
 }
+
+.gallery{
+    margin-top:80px;
+}
+
+
+.gallery h2{
+    font-size:32px;
+    margin-bottom:40px;
+}
+
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+
+.gallery-item{
+    border:1px solid #eee;
+    padding:20px;
+    background:white;
+}
+
+
+.gallery-item img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
+
+
+.gallery-item h3{
+    margin-top:20px;
+    font-size:22px;
+}
+
+
+.gallery-item p{
+    color:#666;
+    line-height:1.8;
+}
+
+
+@media(max-width:768px){
+
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+}
