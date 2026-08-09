@@ -1,103 +1,358 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
 <head>
+
 <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Li Anqi | Personal Website</title>
 
+
 <style>
+
 body{
-    font-family: Arial, "Microsoft YaHei";
-    max-width:900px;
+    margin:0;
+    font-family:
+    "Microsoft YaHei",
+    Arial,
+    sans-serif;
+    background:#f5f8fb;
+    color:#333;
+}
+
+
+.container{
+    max-width:1000px;
     margin:auto;
+    padding:30px;
+}
+
+
+/* 顶部 */
+
+.header{
+
+    background:white;
+    border-radius:20px;
     padding:40px;
-    line-height:1.8;
+    display:flex;
+    align-items:center;
+    gap:40px;
+
+}
+
+
+.photo{
+
+    width:180px;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+
+h1{
+
+    color:#124e78;
+    font-size:42px;
+
+}
+
+
+.subtitle{
+
+    font-size:20px;
+    color:#555;
+
+}
+
+
+
+.lang{
+
+    margin-top:20px;
+
+}
+
+
+button{
+
+    padding:8px 18px;
+    border:none;
+    border-radius:20px;
+    background:#124e78;
+    color:white;
+    cursor:pointer;
+
+}
+
+
+/* 内容 */
+
+.card{
+
+    background:white;
+    margin-top:25px;
+    padding:30px;
+    border-radius:20px;
+
+}
+
+
+h2{
+
+    color:#124e78;
+    border-left:5px solid #124e78;
+    padding-left:15px;
+
+}
+
+
+.item{
+
+    margin:15px 0;
+
+}
+
+
+.footer{
+
+    text-align:center;
+    margin:40px;
+    color:#777;
+
+}
+
+
+/* 手机 */
+
+@media(max-width:700px){
+
+.header{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+.photo{
+
+    width:150px;
+    height:190px;
+
 }
 
 h1{
-    font-size:40px;
+
+    font-size:32px;
+
 }
 
-.box{
-    margin-top:30px;
-    padding:20px;
-    border-radius:10px;
-    background:#f5f5f5;
 }
+
+
 
 </style>
 
+
 </head>
+
 
 
 <body>
 
 
+<div class="container">
+
+
+
+<!-- 个人信息 -->
+
+<div class="header">
+
+
+<img src="photo.jpg" class="photo">
+
+
+<div>
+
 <h1>
-李安奇 Li Anqi
+李安奇
+<br>
+Li Anqi
 </h1>
 
-<h2>
+
+<div class="subtitle">
+
+体育教育硕士研究生
+
+<br>
+
 Master Student in Physical Education
-</h2>
-
-
-<p>
-华南师范大学 体育教育硕士研究生
-</p>
-
-
-<div class="box">
-
-<h2>
-About Me
-</h2>
-
-<p>
-Welcome to my personal academic and sports portfolio website.
-</p>
-
-<p>
-这里将展示我的教育经历、科研成果、体育经历、竞赛荣誉以及个人发展经历。
-</p>
 
 </div>
 
 
-<div class="box">
+<p>
+
+华南师范大学
+
+<br>
+
+South China Normal University
+
+</p>
+
+
+<div class="lang">
+
+<button>
+中文
+</button>
+
+<button>
+English
+</button>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<!-- 关于我 -->
+
+<div class="card">
+
 
 <h2>
-Education
+About Me / 关于我
 </h2>
 
+
 <p>
-2024.09 - Present<br>
-South China Normal University<br>
+
+本人现就读于华南师范大学民族传统体育专业硕士研究生。
+
+本科毕业于天津体育学院体育教育专业。
+
+长期参与体育教育实践、武术文化传播、体育竞赛及科研工作。
+
+</p>
+
+
+<p>
+
+My research interests include physical education,
+traditional Chinese martial arts,
+youth sports development and sports education.
+
+</p>
+
+
+</div>
+
+
+
+
+
+<!-- 教育经历 -->
+
+<div class="card">
+
+
+<h2>
+Education / 教育经历
+</h2>
+
+
+<div class="item">
+
+<b>
+2024.09 - Present
+</b>
+
+<br>
+
+South China Normal University
+
+<br>
+
 Master Degree in Physical Education
-</p>
-
-
-<p>
-2020.09 - 2024.06<br>
-Tianjin University of Sport<br>
-Bachelor Degree in Physical Education
-</p>
 
 </div>
 
 
-<div class="box">
+
+<div class="item">
+
+<b>
+2020.09 - 2024.06
+</b>
+
+<br>
+
+Tianjin University of Sport
+
+<br>
+
+Bachelor Degree in Physical Education
+
+<br>
+
+GPA: 3.8 / 4 (Top 1)
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- 联系方式 -->
+
+<div class="card">
+
 
 <h2>
-Contact
+Contact / 联系方式
 </h2>
+
 
 <p>
 Email:
-Lq173200@163.com
+lianqi5678@163.com
 </p>
+
 
 </div>
 
 
+
+<div class="footer">
+
+© 2026 Li Anqi
+
+</div>
+
+
+
+</div>
+
+
+
 </body>
+
 </html>
