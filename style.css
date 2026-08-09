@@ -521,3 +521,59 @@ section{
 }
 
 }
+.section-layout {
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+
+
+.section-text {
+
+flex:1;
+
+}
+
+
+
+.section-image {
+
+flex:0 0 350px;
+
+}
+
+
+
+.section-image img {
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+
+
+@media(max-width:768px){
+
+.section-layout{
+
+flex-direction:column;
+
+}
+
+
+.section-image{
+
+width:100%;
+
+}
+
+}
