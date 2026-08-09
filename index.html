@@ -7,133 +7,200 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Li Anqi | Personal Website</title>
+<title>李安奇 Li Anqi | Personal Website</title>
 
 
 <style>
 
+*{
+    box-sizing:border-box;
+}
+
+
 body{
+
     margin:0;
+
     font-family:
     "Microsoft YaHei",
     Arial,
     sans-serif;
-    background:#f5f8fb;
+
+    background:#f3f7fb;
+
     color:#333;
+
 }
+
 
 
 .container{
-    max-width:1000px;
+
+    max-width:1100px;
+
     margin:auto;
+
     padding:30px;
+
 }
 
 
-/* 顶部 */
 
 .header{
 
     background:white;
+
     border-radius:20px;
+
     padding:40px;
+
     display:flex;
+
     align-items:center;
+
     gap:40px;
 
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+
 }
+
 
 
 .photo{
 
     width:180px;
-    height:220px;
+
+    height:230px;
+
     object-fit:cover;
-    border-radius:10px;
+
+    border-radius:15px;
 
 }
+
 
 
 h1{
 
-    color:#124e78;
     font-size:42px;
 
+    color:#0b4f71;
+
+    margin-bottom:10px;
+
 }
+
 
 
 .subtitle{
 
     font-size:20px;
+
     color:#555;
 
 }
 
 
 
-.lang{
+.tag{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:8px 18px;
+
+    background:#0b4f71;
+
+    color:white;
+
+    border-radius:20px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    margin-top:30px;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+
+}
+
+
+
+h2{
+
+    color:#0b4f71;
+
+    border-left:5px solid #0b4f71;
+
+    padding-left:15px;
+
+}
+
+
+
+.timeline{
 
     margin-top:20px;
 
 }
 
 
-button{
-
-    padding:8px 18px;
-    border:none;
-    border-radius:20px;
-    background:#124e78;
-    color:white;
-    cursor:pointer;
-
-}
-
-
-/* 内容 */
-
-.card{
-
-    background:white;
-    margin-top:25px;
-    padding:30px;
-    border-radius:20px;
-
-}
-
-
-h2{
-
-    color:#124e78;
-    border-left:5px solid #124e78;
-    padding-left:15px;
-
-}
-
 
 .item{
 
-    margin:15px 0;
+    margin-bottom:25px;
 
 }
+
+
+
+.year{
+
+    font-weight:bold;
+
+    color:#0b4f71;
+
+}
+
+
+
+ul{
+
+    line-height:2;
+
+}
+
 
 
 .footer{
 
     text-align:center;
-    margin:40px;
+
+    padding:40px;
+
     color:#777;
 
 }
 
 
-/* 手机 */
 
 @media(max-width:700px){
+
 
 .header{
 
     flex-direction:column;
+
     text-align:center;
 
 }
@@ -142,9 +209,11 @@ h2{
 .photo{
 
     width:150px;
+
     height:190px;
 
 }
+
 
 h1{
 
@@ -152,8 +221,15 @@ h1{
 
 }
 
+
+.container{
+
+    padding:15px;
+
 }
 
+
+}
 
 
 </style>
@@ -169,8 +245,8 @@ h1{
 <div class="container">
 
 
+<!-- 首页 -->
 
-<!-- 个人信息 -->
 
 <div class="header">
 
@@ -180,10 +256,15 @@ h1{
 
 <div>
 
+
 <h1>
+
 李安奇
+
 <br>
+
 Li Anqi
+
 </h1>
 
 
@@ -209,53 +290,52 @@ South China Normal University
 </p>
 
 
-<div class="lang">
+<span class="tag">
 
-<button>
-中文
-</button>
+Physical Education | Traditional Sports
 
-<button>
-English
-</button>
-
-</div>
+</span>
 
 
 </div>
 
 
 </div>
+
 
 
 
 
 <!-- 关于我 -->
 
+
 <div class="card">
 
 
 <h2>
+
 About Me / 关于我
+
 </h2>
 
 
 <p>
 
-本人现就读于华南师范大学民族传统体育专业硕士研究生。
+本人现就读于华南师范大学民族传统体育学专业硕士研究生。
 
 本科毕业于天津体育学院体育教育专业。
 
-长期参与体育教育实践、武术文化传播、体育竞赛及科研工作。
+长期从事体育教育实践、民族传统体育研究、武术竞赛及体育文化传播相关工作。
 
 </p>
 
 
+
 <p>
 
-My research interests include physical education,
-traditional Chinese martial arts,
-youth sports development and sports education.
+I am currently pursuing a Master's degree in Physical Education at South China Normal University.
+
+My research interests include physical education, traditional Chinese martial arts, sports culture communication and youth sports development.
 
 </p>
 
@@ -266,51 +346,89 @@ youth sports development and sports education.
 
 
 
-<!-- 教育经历 -->
+
+
+<!-- 教育背景 -->
+
 
 <div class="card">
 
 
 <h2>
-Education / 教育经历
+
+Education / 教育背景
+
 </h2>
+
+
+<div class="timeline">
 
 
 <div class="item">
 
+
+<div class="year">
+
+2024.09 - 2027.06
+
+</div>
+
+
 <b>
-2024.09 - Present
+
+华南师范大学
+
 </b>
 
-<br>
-
-South China Normal University
 
 <br>
+
+
+民族传统体育学
+
+<br>
+
 
 Master Degree in Physical Education
+
 
 </div>
 
 
 
+
 <div class="item">
 
-<b>
+
+<div class="year">
+
 2020.09 - 2024.06
+
+</div>
+
+
+<b>
+
+天津体育学院
+
 </b>
 
-<br>
-
-Tianjin University of Sport
 
 <br>
+
+
+体育教育 学士
+
+<br>
+
 
 Bachelor Degree in Physical Education
 
 <br>
 
-GPA: 3.8 / 4 (Top 1)
+
+GPA: 3.8/4 (Top 1)
+
 
 </div>
 
@@ -318,41 +436,973 @@ GPA: 3.8 / 4 (Top 1)
 </div>
 
 
+</div>
+<!-- 科研经历 Research -->
 
-
-
-<!-- 联系方式 -->
 
 <div class="card">
 
 
 <h2>
-Contact / 联系方式
+
+Research / 科研经历
+
 </h2>
 
 
-<p>
-Email:
-lianqi5678@163.com
-</p>
+<div class="item">
+
+
+<div class="year">
+
+2025
+
+</div>
+
+
+<b>
+
+《天津近代武术家群体教育理念的嬗变及其国家认同建构》
+
+</b>
+
+
+<br>
+
+第十四届全国体育科学大会专题汇报
+
+
+<br>
+
+Research Presentation
 
 
 </div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024
+
+</div>
+
+
+<b>
+
+《“双减”背景下中小学体育教师的“焦虑”成因及化解策略》
+
+</b>
+
+
+<br>
+
+第十五届高校体育教师学术交流大会专题汇报
+
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024
+
+</div>
+
+
+<b>
+
+《武数汇——大数据智慧武术云平台》
+
+</b>
+
+
+<br>
+
+中国国际大学生创新大赛天津赛区铜奖
+
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024
+
+</div>
+
+
+<b>
+
+《天津市迷踪艺的传承与发展对策研究》
+
+</b>
+
+
+<br>
+
+校级优秀毕业论文
+
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2021-2023
+
+</div>
+
+
+<b>
+
+“优智速”体育教资面试培训
+
+</b>
+
+
+<br>
+
+主持省部级大学生创新创业训练计划项目并结项
+
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2022-2023
+
+</div>
+
+
+<b>
+
+“新时代”迷踪艺的传承方式研究
+
+</b>
+
+
+<br>
+
+参与校级课题并结项
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 荣誉奖励 -->
+
+
+<div class="card">
+
+
+<h2>
+
+Awards / 荣誉奖励
+
+</h2>
+
+
+<ul>
+
+
+<li>
+
+国家奖学金
+
+</li>
+
+
+<li>
+
+国家励志奖学金
+
+</li>
+
+
+<li>
+
+十佳大学生
+
+</li>
+
+
+<li>
+
+十佳共青团员
+
+</li>
+
+
+<li>
+
+学雷锋先进个人标兵
+
+</li>
+
+
+<li>
+
+三好学生（2次）
+
+</li>
+
+
+<li>
+
+优秀共青团员（2次）
+
+</li>
+
+
+<li>
+
+一等奖学金（4次）
+
+</li>
+
+
+<li>
+
+优秀学生干部
+
+</li>
+
+
+<li>
+
+优秀毕业生
+
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 体育能力 -->
+
+
+<div class="card">
+
+
+<h2>
+
+Sports Profile / 体育专项能力
+
+</h2>
+
+
+
+<ul>
+
+
+<li>
+
+中国武术六段
+
+</li>
+
+
+<li>
+
+健身气功四段
+
+</li>
+
+
+<li>
+
+健身气功国家二级裁判员
+
+</li>
+
+
+<li>
+
+健身气功二级社会体育指导员
+
+</li>
+
+
+<li>
+
+高中体育教师资格证
+
+</li>
+
+
+<li>
+
+初级游泳救生员
+
+</li>
+
+
+<li>
+
+瑜伽三段
+
+</li>
+
+
+<li>
+
+武术三级裁判员
+
+</li>
+
+
+<li>
+
+田径三级裁判员
+
+</li>
+
+
+<li>
+
+散打三级社会指导员
+
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 比赛经历 -->
+
+
+<div class="card">
+
+
+<h2>
+
+Competition / 竞赛经历
+
+</h2>
+
+
+<ul>
+
+
+<li>
+
+第五届中国大学生太极推手锦标赛：
+柔力太极球混三 第二名
+
+</li>
+
+
+<li>
+
+第五届中国大学生太极推手锦标赛：
+柔力太极球男双 第三名
+
+</li>
+
+
+<li>
+
+第五届中国大学生武术长短兵锦标赛：
+短兵 第五名
+
+</li>
+
+
+<li>
+
+第五届中国大学生太极推手锦标赛：
+推手 第五名
+
+</li>
+
+
+<li>
+
+天津市第十五届运动会：
+健身气功八段锦、大舞项目 第三名
+
+</li>
+
+
+<li>
+
+天津市健身瑜伽邀请赛集体赛 第一名
+
+</li>
+
+
+<li>
+
+全国传统武术拳种展演网络大赛：
+棍男子C组 一等奖
+
+</li>
+
+
+<li>
+
+中国-东盟太极拳网络大赛：
+简化24式太极拳男子C组 一等奖
+
+</li>
+
+
+<li>
+
+北京国际武术邀请赛：
+传统单器械、传统四类拳、器械对练 一等奖
+
+</li>
+
+
+<li>
+
+天津市滨海新区健身气功八段锦邀请赛 一等奖
+
+</li>
+
+
+</ul>
+
+
+</div>
+<!-- 实践经历 Experience -->
+
+
+<div class="card">
+
+
+<h2>
+
+Experience / 实践经历
+
+</h2>
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2023.05 - Present
+
+</div>
+
+
+<b>
+
+天津市“精武武艺研习会”
+
+</b>
+
+
+<br>
+
+社会公益组织 会长
+
+<br>
+
+Responsible for traditional martial arts promotion, organization management and public activities.
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024.09 - Present
+
+</div>
+
+
+<b>
+
+华南师范大学国术社
+
+</b>
+
+
+<br>
+
+社团干事
+
+<br>
+
+Participating in martial arts teaching and campus sports activities.
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2025.09 - 2026.03
+
+</div>
+
+
+<b>
+
+华南师范大学体育科学学院资料室
+
+</b>
+
+
+<br>
+
+学生助理
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2023 - 2024
+
+</div>
+
+
+<b>
+
+天津市第一中学（市直属重点）
+
+</b>
+
+
+<br>
+
+体育教师实习
+
+<br>
+
+Teaching practice in physical education.
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2021.09 - 2024.06
+
+</div>
+
+
+<b>
+
+天津体育学院“精武武艺研习会”
+
+</b>
+
+
+<br>
+
+社长
+
+<br>
+
+Organized martial arts training and student activities.
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2023.11
+
+</div>
+
+
+<b>
+
+京津冀青少年武术兵道比赛
+
+</b>
+
+
+<br>
+
+裁判
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2023.11
+
+</div>
+
+
+<b>
+
+在华留学生武术训练营
+
+</b>
+
+
+<br>
+
+助教
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024.04 - 2024.06
+
+</div>
+
+
+<b>
+
+天津市青少年武术散打锦标赛
+
+<br>
+
+天津市武术散打俱乐部超级联赛
+
+</b>
+
+
+<br>
+
+裁判
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2025.07
+
+</div>
+
+
+<b>
+
+2025海峡两岸八极拳技艺交流大会
+
+</b>
+
+
+<br>
+
+两岸青年大枪训练营参与者
+
+</div>
+
+
+
+
+
+<div class="item">
+
+
+<div class="year">
+
+2024.05
+
+</div>
+
+
+<b>
+
+天津卫视非遗项目——天津市市级非遗霍氏练手拳录制
+
+</b>
+
+
+<br>
+
+Participant
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 个人信息 -->
+
+
+<div class="card">
+
+
+<h2>
+
+Contact / 联系方式
+
+</h2>
+
+
+
+<p>
+
+<b>
+
+Email:
+
+</b>
+
+<br>
+
+Lq173200@163.com
+
+</p>
+
+
+
+<p>
+
+<b>
+
+Phone:
+
+</b>
+
+<br>
+
+19066710618
+
+</p>
+
+
+
+<p>
+
+<b>
+
+Political Status:
+
+</b>
+
+<br>
+
+中共党员
+
+</p>
+
+
+
+<p>
+
+<b>
+
+Location:
+
+</b>
+
+<br>
+
+China
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- 简历下载 -->
+
+
+<div class="card">
+
+
+<h2>
+
+CV / 简历
+
+</h2>
+
+
+
+<p>
+
+未来可在这里添加：
+
+</p>
+
+
+<ul>
+
+<li>
+
+中文简历 PDF
+
+</li>
+
+
+<li>
+
+English CV PDF
+
+</li>
+
+
+<li>
+
+Research Portfolio
+
+</li>
+
+
+</ul>
+
+
+
+</div>
+
+
+
+
+
+
 
 
 
 <div class="footer">
 
+
 © 2026 Li Anqi
 
+<br>
+
+Personal Academic & Sports Portfolio
+
+
 </div>
 
 
 
 </div>
-
 
 
 </body>
+
 
 </html>
